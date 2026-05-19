@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(97, 87, 105);
+}
+
+header nav {
+  background-color: rgb(191, 124, 36);
+  margin: 0;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  float: left;
+}
+header nav ul li {
+  display: inline-block;
+  background-color: #ddd;
+}
+header nav a {
+  display: block;
+  padding: 0 10px;
+  font-size: 1em;
+  line-height: none;
+  background-color: chartreuse;
+  color: peru;
+}
+header nav a:hover {
+  background-color: #ca1b1b;
+  color: burlywood;
+}
+
+.main {
+  background-color: red;
+  clear: both;
+}
+div {
+  background-color: red;
+  color: #ffff;
+}
+footer {
+  background-color: rgb(48, 48, 111, 0.5);
+  color: #ffff;
+}
+
+@media all and (max-width: 740px) {
+  header nav ul li {
+    display: block;
+    text-align: center;
+  }
+  header nav ul {
+    width: 100%;
+  }
+  .menu {
+    width: 100%;
+    background-color: cornflowerblue;
+    color: white;
+    display: block;
+    text-align: center;
+  }
+}
