@@ -1,0 +1,15 @@
+body {
+  background-color: blueviolet;
+}
+
+header {
+  background-color: antiquewhite;
+}
+div {
+  background-color: red;
+  color: #ffff;
+}
+footer {
+  background-color: rgb(48, 48, 111, 0.5);
+  color: #ffff;
+}

@@ -1,0 +1,22 @@
+header{
+    background-color: rgb(87, 172, 87,0.5);
+    padding: 10px;
+    position: sticky;
+}
+header{
+    position:relative;
+}
+header{
+    position:fixed;
+}
+header{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    position:fixed;
+}

@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #add;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header, footer{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+    padding:10px;
+}
+ul{
+    margin:0;
+    padding:0px;
+}
+li{
+    list-style-type:none;
+}
+li a{
+    text-decoration: none;
+    display: block;
+    background-color: blue;
+    color:aliceblue;
+}
+li a:hover{
+    background-color: bisque;
+}
+col{padding: 5px;}
+main{
+    display:grid;
+    grid-template-areas: none 'cola colb colc';
+}
+main aside:first-child{
+    grid-area:cola;
+    background-color:pink;
+}
+main article{
+    grid-area:colb;
+    background-color:rgb(166, 20, 44); 
+}
+main aside:last-child{
+    grid-area:colc;
+    background-color:yellow;
+}
+@media (max-width:640px){
+    main{
+        grid-template-areas: 
+        'cola'
+        'colb'
+        'colc';
+    }
+}

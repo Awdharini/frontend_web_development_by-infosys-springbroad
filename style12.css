@@ -1,0 +1,15 @@
+article::first-line{
+    color:rgb(37, 23, 5);
+}
+article::first-letter{
+    color:cadetblue;
+    font-size:3em;
+}
+
+article::before{
+    content:'New content';
+}
+
+article::after{
+    content:'After';
+}

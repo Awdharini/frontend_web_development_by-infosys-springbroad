@@ -1,0 +1,15 @@
+.blue{
+    background-color: rgb(255,0,255);
+    color:aliceblue;
+}
+.h6{
+    background-color: aqua;
+}
+body{
+    background-color: #000000;
+    color:#ffffff;
+}
+.h4{
+    background-color: #aaabbb;
+    color:hsla(120,40,70);
+}

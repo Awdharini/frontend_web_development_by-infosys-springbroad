@@ -1,0 +1,24 @@
+#bottom{
+    color:red;
+    border:1px solid black;
+    padding:20px;
+    margin-top:50px;
+    text-align:left;
+    text-transform: lowercase;
+    text-indent: 10px;
+    letter-spacing:1px;
+    line-height: 1;
+    word-spacing:20px;
+    white-space: nowrap;
+}
+.small{
+    
+    font-size:0.8em;
+    background-color: burlywood;
+    vertical-align: text-bottom;
+    text-decoration: line-through;
+}
+a{
+    text-decoration: turquoise;
+    text-shadow: 5px 2px 5px black;
+}

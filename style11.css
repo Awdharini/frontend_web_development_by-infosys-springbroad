@@ -1,0 +1,29 @@
+header h1{
+    background-color:greenyellow;
+
+}
+article span{
+    background-color:violet;
+}
+
+article > span{
+    background-color: yellow;
+}
+
+article > P ~ span{
+    background-color: paleturquoise;
+}
+
+article > P + span{
+    background-color: rgb(68, 164, 68);
+}
+
+a[href="#1"]{
+    color:bisque;
+    background-color: aquamarine;
+}
+
+h1,h2,h4,h6{
+    padding:10px;
+    border:5px dotted green;
+}

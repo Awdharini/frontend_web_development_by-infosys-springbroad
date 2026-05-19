@@ -1,0 +1,30 @@
+li{
+    float:left;
+}
+li{
+    float:right;
+    
+}
+ul{
+    border:1px solid black;
+    padding:30px;
+}
+
+article{
+    width:50%;
+    background-color: lightblue;
+    float:left;
+}
+aside{
+    width:50%;
+    background-color:lightpink;
+    float:left;
+}
+img{
+    float:left;
+}
+
+footer{
+    clear:both;
+    background-color: bisque;
+}

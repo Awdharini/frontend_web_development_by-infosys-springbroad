@@ -1,0 +1,26 @@
+a:link{
+    color:blueviolet;
+}
+a:focus-visible{
+    color:aquamarine;
+}
+a:hover{
+    color:rgb(80, 255, 112);
+    text-decoration: none;
+}
+a:active{
+    color:pink;
+}
+h1{
+    background-color:black;
+    color:aliceblue;
+}
+h1:hover{
+   background-color:blanchedalmond; 
+} 
+h1:active{
+    background-color:pink;
+}  
+#bottom span:first-child{
+    color:red;
+}
